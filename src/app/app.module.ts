@@ -34,6 +34,9 @@ import { UserDetailCentreComponent } from './user-detail-centre/user-detail-cent
 import { RegistrationOuestComponent } from './registration-ouest/registration-ouest.component';
 import { UserDetailOuestComponent } from './user-detail-ouest/user-detail-ouest.component';
 import { CreateRegistrationOuestComponent } from './create-registration-ouest/create-registration-ouest.component';
+import { CreateRegistrationSudComponent } from './create-registration-sud/create-registration-sud.component';
+import { UserDetailSudComponent } from './user-detail-sud/user-detail-sud.component';
+import { RegistrationSudComponent } from './registration-sud/registration-sud.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { CreateRegistrationOuestComponent } from './create-registration-ouest/cr
     UserDetailCentreComponent,
     RegistrationOuestComponent,
     UserDetailOuestComponent,
-    CreateRegistrationOuestComponent
+    CreateRegistrationOuestComponent,
+    CreateRegistrationSudComponent,
+    UserDetailSudComponent,
+    RegistrationSudComponent
   ],
   imports: [
     BrowserModule,

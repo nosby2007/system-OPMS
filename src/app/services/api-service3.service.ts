@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { PatientCentre } from '../models/userCentre.model';
 import { PatientOuest } from '../models/userOuest.model';
 
 
