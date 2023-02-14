@@ -31,6 +31,9 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { RegistrationCentreComponent } from './registration-centre/registration-centre.component';
 import { CreateRegistrationCentreComponent } from './create-registration-centre/create-registration-centre.component';
 import { UserDetailCentreComponent } from './user-detail-centre/user-detail-centre.component';
+import { RegistrationOuestComponent } from './registration-ouest/registration-ouest.component';
+import { UserDetailOuestComponent } from './user-detail-ouest/user-detail-ouest.component';
+import { CreateRegistrationOuestComponent } from './create-registration-ouest/create-registration-ouest.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { UserDetailCentreComponent } from './user-detail-centre/user-detail-cent
     RegistrationListComponent,
     RegistrationCentreComponent,
     CreateRegistrationCentreComponent,
-    UserDetailCentreComponent
+    UserDetailCentreComponent,
+    RegistrationOuestComponent,
+    UserDetailOuestComponent,
+    CreateRegistrationOuestComponent
   ],
   imports: [
     BrowserModule,

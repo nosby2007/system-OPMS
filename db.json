@@ -269,7 +269,50 @@
       "id": 1
     }
   ],
-  "patientOuest": [],
+  "patientOuest": [
+    {
+      "firstName": "MATCHEU",
+      "lastName": "LAURE",
+      "email": "laurematcheu@gmail.com",
+      "phone": "658763456",
+      "ordre": 23167,
+      "profession": "SAGE FEMME",
+      "gender": "Female",
+      "region": "OUEST",
+      "date": "2021-06-15T20:00:00.000Z",
+      "EMContact": "658763456",
+      "cni": 1234675,
+      "id": 1
+    },
+    {
+      "firstName": "TANEFO",
+      "lastName": "JUSTIN Marc",
+      "email": "justin@gmail.com",
+      "phone": "657459898",
+      "ordre": 12675,
+      "profession": "TMS",
+      "gender": "Male",
+      "region": "OUEST",
+      "date": "2023-02-12T20:00:00.000Z",
+      "EMContact": "657459898",
+      "cni": 1234567,
+      "id": 2
+    },
+    {
+      "firstName": "KENFACK TAMKOUA",
+      "lastName": "MATHURIN",
+      "email": "mathurinken@gmail.com",
+      "phone": "2267598463",
+      "ordre": 12356,
+      "profession": "INFIRMIER",
+      "gender": "Male",
+      "region": "OUEST",
+      "date": "2016-01-03T20:00:00.000Z",
+      "EMContact": "654837462",
+      "cni": 10980372,
+      "id": 3
+    }
+  ],
   "patientEst": [],
   "patientSud": [],
   "patientNord": [],

@@ -70,7 +70,8 @@ export class CreateRegistrationComponent implements OnInit{
     this.api.postRegistration(this.registerForm.value).subscribe(res=>{
       this.toastService.success({detail:"success", summary:"Professionel Ajouté avec success", duration:3000});
       this.registerForm.reset();
-      console.log(this.registerForm.value);
+      this.router.navigate(['list'])
+  
       
     })
     

@@ -70,7 +70,7 @@ export class CreateRegistrationCentreComponent implements OnInit {
     this.api2.postRegistration(this.registerForm.value).subscribe(res=>{
       this.toastService.success({detail:"success", summary:"patient added", duration:3000});
       this.registerForm.reset();
-      console.log(this.registerForm.value);
+      this.router.navigate(['listCentre'])
       
     })
     

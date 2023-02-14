@@ -5,9 +5,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Router } from '@angular/router';
 import { NgToastService } from 'ng-angular-popup';
 import { NgConfirmService } from 'ng-confirm-box';
-import { Patient } from '../models/user.model';
 import { PatientCentre } from '../models/userCentre.model';
-import { ApiServiceService } from '../services/api-service.service';
 import { ApiService2Service } from '../services/api-service2.service';
 
 @Component({
