@@ -37,6 +37,27 @@ import { CreateRegistrationOuestComponent } from './create-registration-ouest/cr
 import { CreateRegistrationSudComponent } from './create-registration-sud/create-registration-sud.component';
 import { UserDetailSudComponent } from './user-detail-sud/user-detail-sud.component';
 import { RegistrationSudComponent } from './registration-sud/registration-sud.component';
+import { RegistrationEstComponent } from './registration-est/registration-est.component';
+import { UserDetailEstComponent } from './user-detail-est/user-detail-est.component';
+import { CreateRegistrationEstComponent } from './create-registration-est/create-registration-est.component';
+import { CreateRegistrationAdamaouaComponent } from './create-registration-adamaoua/create-registration-adamaoua.component';
+import { UserDetailAdamouaComponent } from './user-detail-adamoua/user-detail-adamoua.component';
+import { RegistrationAdamouaComponent } from './registration-adamoua/registration-adamoua.component';
+import { RegistrationNordComponent } from './registration-nord/registration-nord.component';
+import { UserDetailNordComponent } from './user-detail-nord/user-detail-nord.component';
+import { CreateRegistrationNordComponent } from './create-registration-nord/create-registration-nord.component';
+import { CreateRegistrationExtremenordComponent } from './create-registration-extremenord/create-registration-extremenord.component';
+import { UserDetailExtremenordComponent } from './user-detail-extremenord/user-detail-extremenord.component';
+import { RegistrationExtremenordComponent } from './registration-extremenord/registration-extremenord.component';
+import { RegistrationSudouestComponent } from './registration-sudouest/registration-sudouest.component';
+import { UserDetailSudouestComponent } from './user-detail-sudouest/user-detail-sudouest.component';
+import { CreateRegistrationSudouestComponent } from './create-registration-sudouest/create-registration-sudouest.component';
+import { CreateRegistrationNordouestComponent } from './create-registration-nordouest/create-registration-nordouest.component';
+import { UserDetailNordouestComponent } from './user-detail-nordouest/user-detail-nordouest.component';
+import { RegistrationNordouestComponent } from './registration-nordouest/registration-nordouest.component';
+import { RegistrationNationalComponent } from './registration-national/registration-national.component';
+import { UserDetailNationalComponent } from './user-detail-national/user-detail-national.component';
+import { CreateRegistrationNationalComponent } from './create-registration-national/create-registration-national.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +73,28 @@ import { RegistrationSudComponent } from './registration-sud/registration-sud.co
     CreateRegistrationOuestComponent,
     CreateRegistrationSudComponent,
     UserDetailSudComponent,
-    RegistrationSudComponent
+    RegistrationSudComponent,
+    RegistrationEstComponent,
+    UserDetailEstComponent,
+    CreateRegistrationEstComponent,
+    CreateRegistrationAdamaouaComponent,
+    UserDetailAdamouaComponent,
+    RegistrationAdamouaComponent,
+    RegistrationNordComponent,
+    UserDetailNordComponent,
+    CreateRegistrationNordComponent,
+    CreateRegistrationExtremenordComponent,
+    UserDetailExtremenordComponent,
+    RegistrationExtremenordComponent,
+    RegistrationSudouestComponent,
+    UserDetailSudouestComponent,
+    CreateRegistrationSudouestComponent,
+    CreateRegistrationNordouestComponent,
+    UserDetailNordouestComponent,
+    RegistrationNordouestComponent,
+    RegistrationNationalComponent,
+    UserDetailNationalComponent,
+    CreateRegistrationNationalComponent
   ],
   imports: [
     BrowserModule,

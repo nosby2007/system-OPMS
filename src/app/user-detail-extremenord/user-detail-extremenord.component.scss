@@ -1,0 +1,23 @@
+.example-card {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .matLine{
+    font-weight: 500;
+  }
+  .demo-section{
+    float: right;
+    color: rgb(57, 23, 252);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .demo-section .button{
+    background-color: green;
+    color: aliceblue;
+  }
