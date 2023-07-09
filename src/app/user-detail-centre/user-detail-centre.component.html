@@ -1,0 +1,103 @@
+<mat-card class="example-card">
+    <div class="demo-section">
+      Droit à L'exercice : 
+      <button mat-raised-button class="button"  matBadge="1" [matBadgeHidden]="hidden" (click)="toggleBadgeVisibility()">
+          Autorisé à Exercer
+      </button>
+    </div>
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>VOS INFORMATIONS</mat-card-title>
+        <mat-card-subtitle>Vous êtes à jour avec vos Cotisations</mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+          <mat-list class="matLine">
+            <div class="col-md-6">
+              <mat-list-item>
+                  <div matLine>
+                      Nom:
+                      <button mat-button>{{userDetails.firstName}}</button>
+                  </div>
+              </mat-list-item>
+            </div>
+            <div class="col-md-6">
+              <mat-list-item>
+                  <div matLine>
+                      Prenom:
+                      <button mat-button>{{userDetails.lastName}}</button>
+                  </div>
+              </mat-list-item>
+            </div>
+              <mat-list-item>
+                  <div matLine>
+                      email:
+                      <button mat-button>{{userDetails.email}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Téléphone:
+                      <button mat-button>{{userDetails.phone}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Numero Ordre:
+                      <button mat-button>{{userDetails.ordre}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Date d'Inscription:
+                      <button mat-button>{{userDetails.date | date}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Profession:
+                      <button mat-button>{{userDetails.profession}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Genre:
+                      <button mat-button>{{userDetails.gender}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      Region:
+                      <button mat-button>{{userDetails.region}}</button>
+                  </div>
+              </mat-list-item>
+              <mat-list-item>
+                  <div matLine>
+                      CNI:
+                      <button mat-button>{{userDetails.cni}}</button>
+                  </div>
+              </mat-list-item>
+            </mat-list>
+            <mat-list-item>
+              <div matLine>
+                  Gols:
+                  <button mat-button>
+                    <mat-chip-listbox>
+                      <ng-container *ngFor="let row of userDetails.region">
+                        <mat-chip-option selected>{{row}}</mat-chip-option>
+                      </ng-container>
+                    </mat-chip-listbox>
+                  </button>
+              </div>
+          </mat-list-item>
+      </mat-card-content>
+  
+      <mat-card-actions>
+        <button mat-button [routerLink]="['/listCentre']" mat-raised-button color="accent" ><i class="fa fa-arrow-left" aria-hidden="true"></i>>retour</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+  
+      <mat-card-footer>
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      </mat-card-footer>
+    </mat-card>

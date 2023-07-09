@@ -1,0 +1,51 @@
+<mat-toolbar color="accent">
+  <h1>Registration</h1>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" routerLink="list">LITTORAL</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listCentre">CENTRE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listOuest">OUEST</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listSud">SUD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listEst">EST</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listNord">NORD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listAdamaoua">ADAMAOUA</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listExtremenord">EXTNORD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listNordouest">NORDOUEST</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listSudouest">SUDOUEST</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="listNational">NATIONAL</a>
+    </li>
+  </ul>
+
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="primary">
+    <a href="https://opms-amsp.com/">Vers le Site</a>
+  
+  </button>
+
+</mat-toolbar>
+<div class="container  mt-4">
+  <router-outlet></router-outlet>
+</div>
+<lib-ng-toast></lib-ng-toast>
+<ng-confirm></ng-confirm>
+
