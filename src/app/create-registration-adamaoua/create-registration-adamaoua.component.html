@@ -3,7 +3,7 @@
 </div>
 
 <fieldset>
-    <h1 class="text-muted mt-2 text-center">FORMULAIRE d'ENREGISTREMENT ADAMAOUA </h1>
+    <h1 class="text-muted mt-2 text-center">FORMULAIRE d'ENREGISTREMENT CANADA </h1>
    <div class="registration-form m-3 p-4">
     <form [formGroup]="registerForm">
         <div class="row">
@@ -37,14 +37,14 @@
             </div>
             <div class="col-md-6">
                 <mat-form-field appearance="outline">
-                    <mat-label>Numero D'Ordre</mat-label>
+                    <mat-label>Numero Passport</mat-label>
                     <input type="number" formControlName="ordre" matInput placeholder="ordre">
                     <mat-icon matSuffix><i class="fa fa-check" aria-hidden="true"></i></mat-icon>
                 </mat-form-field>
             </div>
             <div class="col-md-6 mt-4">
                 <mat-form-field appearance="outline">
-                    <mat-label>Date Inscription</mat-label>
+                    <mat-label>Date Soumission</mat-label>
                     <input formControlName="date" matInput [matDatepicker]="picker">
                     <mat-hint>MM/DD/YYYY</mat-hint>
                     <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
@@ -54,7 +54,7 @@
             <div class="col-md-6 mt-4">
                 <mat-form-field class="example-outline">
                     <mat-label>Contact Whatsapp</mat-label>
-                    <span matPrefix>+237 &nbsp;</span>
+                    <span matPrefix>+00 &nbsp;</span>
                     <input formControlName="EMContact" type="tel" matInput placeholder="600 000 000">
                     <mat-icon matSuffix>phone</mat-icon>
                     <mat-hint>Include area code</mat-hint>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-md-6 mt-4">
                 <mat-form-field appearance="outline">
-                    <mat-label>Region d'Exercice</mat-label>
+                    <mat-label>Ville de résidence</mat-label>
                     <mat-select formControlName="region">
                       <mat-option  *ngFor="let state of region" [value]="state">{{state}}</mat-option>
                     </mat-select>

@@ -31,6 +31,7 @@ import { UserDetailOuestComponent } from './user-detail-ouest/user-detail-ouest.
 import { UserDetailSudComponent } from './user-detail-sud/user-detail-sud.component';
 import { UserDetailSudouestComponent } from './user-detail-sudouest/user-detail-sudouest.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { RegistrationNordComponent } from './registration-nord/registration-nord.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'register', pathMatch:'full'},
@@ -51,7 +52,7 @@ const routes: Routes = [
   {path:'listSud', component:RegistrationSudComponent},
   {path:'listEst', component:RegistrationEstComponent},
   {path:'listAdamaoua', component:RegistrationAdamouaComponent},
-  {path:'listNord', component:RegistrationAdamouaComponent},
+  {path:'listNord', component:RegistrationNordComponent},
   {path:'listExtremenord', component:RegistrationExtremenordComponent},
   {path:'listSudouest', component:RegistrationSudouestComponent},
   {path:'listNordouest', component:RegistrationNordouestComponent},

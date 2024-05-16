@@ -16,6 +16,14 @@ export class CreateRegistrationAdamaouaComponent implements OnInit{
     'INFIRMIER',
     'SAGE FEMME',
     'TMS',
+    'JURISTE',
+    'ENSEIGNANT',
+    'CHAUFFEUR',
+    'COMMERCANT',
+    'DEVOPS ENGINEER',
+    'GENIE CIVIL',
+    'JOURNALISTE',
+    'GESTIONNAIRE DE PROJET',
   ];
   region: string[] = [
     'LITORAL',
